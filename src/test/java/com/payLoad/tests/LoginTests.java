@@ -67,6 +67,7 @@ public class LoginTests extends TestBase {
                 .post(LOGIN_PATH)
                 .then()
                 .statusCode(404);
+
     }
     @Test
     public void loginWithWrongPasswordTest() {
